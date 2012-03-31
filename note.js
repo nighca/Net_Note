@@ -20,10 +20,10 @@ function get_css(css_url){
 	
 get_script(chrome.extension.getURL("jquery.js"));
 
-var t=setTimeout('get_script(chrome.extension.getURL("jquery-ui-1.8.18.custom.min.js"));',500)
+var t=setTimeout('get_script(chrome.extension.getURL("jquery-ui-1.8.18.custom.min.js"));',100)
 //get_script(chrome.extension.getURL("jquery-ui-1.8.18.custom.min.js"));
-var t=setTimeout('get_script(chrome.extension.getURL("farbtastic.js"));',1000)
-var t=setTimeout('get_script(chrome.extension.getURL("jfunc.js"));',1500)
+var t=setTimeout('get_script(chrome.extension.getURL("farbtastic.js"));',200)
+var t=setTimeout('get_script(chrome.extension.getURL("jfunc.js"));',300)
 //get_script(chrome.extension.getURL("farbtastic.js"));
 //get_script(chrome.extension.getURL("jfunc.js"));
 
